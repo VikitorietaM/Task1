@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-float pow2(float x){
-    return x*x;
+float pow3(float x){
+    return x*x*x;
 }
 
 int main(){
-    cout << pow2(3);
+    cout << pow3(3);
 }
