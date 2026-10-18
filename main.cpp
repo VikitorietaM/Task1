@@ -15,6 +15,6 @@ int pow2(int x){
 }
 
 int main(){
-    cout << pow3(3);
+    cout << pow3(4);
     cout << endl<< sumstrok("a", "b", "c");
 }
