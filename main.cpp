@@ -10,6 +10,10 @@ string sumstrok(string s1, string s2, string s3){
     return s1 + s2 + s3;
 }
 
+int pow2(int x){
+    return x*x;
+}
+
 int main(){
     cout << pow3(3);
     cout << endl<< sumstrok("a", "b", "c");
