@@ -14,7 +14,12 @@ int pow2(int x){
     return x*x;
 }
 
+int poslc(int x){
+    return x%10;
+}
+
 int main(){
     cout << pow3(4);
     cout << endl<< sumstrok("a", "b", "c");
+    cout << poslc(167)<< endl;
 }
