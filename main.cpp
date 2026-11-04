@@ -13,12 +13,8 @@ string sumstrok(string s1, string s2, string s3){
 int pow2(int x){
     return x*x;
 }
-int multiply(int a, int b) {
-    return a*b;
-}
 
 int main(){
     cout << pow3(4);
     cout << endl<< sumstrok("a", "b", "c");
-    cout << multiply(6, 7) << "\n";
 }
